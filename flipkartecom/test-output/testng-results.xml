@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-29T12:50:46 PDT" name="Default suite" finished-at="2024-10-29T12:51:26 PDT" duration-ms="39692">
+    <groups>
+    </groups>
+    <test started-at="2024-10-29T12:50:46 PDT" name="Default test" finished-at="2024-10-29T12:51:26 PDT" duration-ms="39692">
+      <class name="com.flipkartest.FlipkartLoginPageTest">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.flipkartest.FlipkartLoginPageTest@5b8dfcc1]" started-at="2024-10-29T12:50:46 PDT" name="browserSetup" finished-at="2024-10-29T12:50:54 PDT" duration-ms="7156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="test()[pri:0, instance:com.flipkartest.FlipkartLoginPageTest@5b8dfcc1]" started-at="2024-10-29T12:50:54 PDT" name="test" finished-at="2024-10-29T12:51:26 PDT" duration-ms="32072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.flipkartest.FlipkartLoginPageTest@5b8dfcc1]" started-at="2024-10-29T12:51:26 PDT" name="browserQuit" finished-at="2024-10-29T12:51:26 PDT" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.flipkartest.FlipkartLoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
