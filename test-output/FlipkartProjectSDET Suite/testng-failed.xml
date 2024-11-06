@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FlipkartProjectSDET Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Flipkart Test Execution(failed)">
+    <classes>
+      <class name="com.flipkart.flipkartprojectsdet.FlipkartLoginPageTest">
+        <methods>
+          <include name="browserSetup"/>
+          <include name="test"/>
+          <include name="browserQuit"/>
+        </methods>
+      </class> <!-- com.flipkart.flipkartprojectsdet.FlipkartLoginPageTest -->
+      <class name="com.flipkart.flipkartprojectsdet.SearchPageTest">
+        <methods>
+          <include name="testSearchResult"/>
+          <include name="browserSetup"/>
+          <include name="testSearchPrice"/>
+          <include name="browserQuit"/>
+        </methods>
+      </class> <!-- com.flipkart.flipkartprojectsdet.SearchPageTest -->
+    </classes>
+  </test> <!-- Flipkart Test Execution(failed) -->
+</suite> <!-- Failed suite [FlipkartProjectSDET Suite] -->
