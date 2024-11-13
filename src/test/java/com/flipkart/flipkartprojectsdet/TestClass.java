@@ -11,6 +11,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -31,6 +32,31 @@ interface abc3 {
 public class TestClass {
 
 	public static void main(String[] args) throws InterruptedException {
+		iciciBankTab();
+
+	}
+
+	@Test
+	public static void iciciBankTab() {
+
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
+		driver.get("https://www.icicibank.com/");
+
+		List<WebElement> we = driver.findElements(By.xpath("//ul[@class='mega-menu-items']//span[@class='menu-txt']"));
+
+		for (WebElement aa : we) {
+			System.out.println(aa.getText());
+
+			driver.quit();
+		}
+
+	}
+
+	@Test
+	public static void iphonePriceFlipkar() throws InterruptedException {
 
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();

@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-05T16:22:05 PST" name="Default suite" finished-at="2024-11-05T16:24:11 PST" duration-ms="126430">
+  <suite started-at="2024-11-06T23:02:36 PST" name="FlipkartProjectSDET Suite" finished-at="2024-11-06T23:04:06 PST" duration-ms="89662">
     <groups>
     </groups>
-    <test started-at="2024-11-05T16:22:05 PST" name="Default test" finished-at="2024-11-05T16:24:11 PST" duration-ms="126430">
+    <test started-at="2024-11-06T23:02:36 PST" name="TestTwo" finished-at="2024-11-06T23:04:05 PST" duration-ms="88638">
       <class name="com.flipkart.flipkartprojectsdet.FlipkartHomePageTest">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.flipkart.flipkartprojectsdet.FlipkartHomePageTest@5b8dfcc1]" started-at="2024-11-05T16:22:05 PST" name="browserSetup" finished-at="2024-11-05T16:22:11 PST" duration-ms="6586" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.flipkart.flipkartprojectsdet.FlipkartHomePageTest@515c6049]" started-at="2024-11-06T23:02:36 PST" name="browserSetup" finished-at="2024-11-06T23:02:43 PST" duration-ms="6283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="findIphoneBelowOneLakh()[pri:0, instance:com.flipkart.flipkartprojectsdet.FlipkartHomePageTest@5b8dfcc1]" started-at="2024-11-05T16:22:11 PST" name="findIphoneBelowOneLakh" finished-at="2024-11-05T16:24:11 PST" duration-ms="119400" status="PASS">
+        <test-method signature="findIphoneBelowOneLakh()[pri:0, instance:com.flipkart.flipkartprojectsdet.FlipkartHomePageTest@515c6049]" started-at="2024-11-06T23:02:43 PST" name="findIphoneBelowOneLakh" finished-at="2024-11-06T23:04:05 PST" duration-ms="82089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findIphoneBelowOneLakh -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.flipkart.flipkartprojectsdet.FlipkartHomePageTest@5b8dfcc1]" started-at="2024-11-05T16:24:11 PST" name="browserQuit" finished-at="2024-11-05T16:24:11 PST" duration-ms="401" status="PASS">
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.flipkart.flipkartprojectsdet.FlipkartHomePageTest@515c6049]" started-at="2024-11-06T23:04:05 PST" name="browserQuit" finished-at="2024-11-06T23:04:05 PST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
       </class> <!-- com.flipkart.flipkartprojectsdet.FlipkartHomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- TestTwo -->
+    <test started-at="2024-11-06T23:02:36 PST" name="TestOne" finished-at="2024-11-06T23:04:06 PST" duration-ms="89662">
+      <class name="com.flipkart.flipkartprojectsdet.FlipkartHomePageTest">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.flipkart.flipkartprojectsdet.FlipkartHomePageTest@5b8dfcc1]" started-at="2024-11-06T23:02:36 PST" name="browserSetup" finished-at="2024-11-06T23:02:42 PST" duration-ms="5882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="findIphoneBelowOneLakh()[pri:0, instance:com.flipkart.flipkartprojectsdet.FlipkartHomePageTest@5b8dfcc1]" started-at="2024-11-06T23:02:42 PST" name="findIphoneBelowOneLakh" finished-at="2024-11-06T23:04:06 PST" duration-ms="83436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findIphoneBelowOneLakh -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.flipkart.flipkartprojectsdet.FlipkartHomePageTest@5b8dfcc1]" started-at="2024-11-06T23:04:06 PST" name="browserQuit" finished-at="2024-11-06T23:04:06 PST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.flipkart.flipkartprojectsdet.FlipkartHomePageTest -->
+    </test> <!-- TestOne -->
+  </suite> <!-- FlipkartProjectSDET Suite -->
 </testng-results>
